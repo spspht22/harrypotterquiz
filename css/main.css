@@ -1,0 +1,81 @@
+@font-face {
+    font-family: hp;
+    src: url("../fonts/hp.ttf");
+}
+
+html {
+	background-image: url("https://img00.deviantart.net/a59f/i/2011/232/c/6/gryffindor_wallpaper_by_tashab07-d479ho3.png");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+#score {
+	display: none;
+    border: 10px #430606 ridge;
+    width: 174px;
+    margin: 0 auto;
+}
+
+#score h1 {
+	font-family: hp;
+}
+
+.correctScore {
+	color: springgreen;
+}
+
+.incorrectScore {
+	color: darkred;
+}
+.quizWrapper {
+	text-align: center;
+	background-color: rgba(255, 255, 255, .2);
+	padding: 10px 50px 50px;
+	width: fit-content;
+	margin: 0 auto
+}
+
+.HPQ-title {
+	font-family: hp;
+	font-size: 97px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.crestBanner img {
+	height: 200px;
+	width: 200px;
+	padding: 0 10px;
+}
+
+
+.userGuess {
+	padding: 5px 8px;
+	font-size: 24px;
+	border-radius: 8px;
+	border-color: #430606;	
+	outline: none;
+
+}
+
+.questionText {
+	font-family: 'Patua One', cursive;
+}
+
+.buttonBlock {
+	display: block;
+    margin: 20px auto;
+    background-color: #e7c20f;
+    padding: 10px 15px;
+    border: double 5px #430606;
+    font-size: 31px;
+    font-family: hp;
+    border-radius: 3px;
+    outline: none;
+}
+
